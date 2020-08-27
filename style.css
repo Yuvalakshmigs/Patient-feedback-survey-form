@@ -1,0 +1,38 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background:#f2f2f2;
+	margin: 20px 15px 20px 15px ;
+	padding: 15px 20px 15px 20px;
+
+}
+
+#survey{
+	background-color: rgb(204, 217, 255);
+	width:600px;
+	margin: auto;
+	padding: 20px 20px;
+}
+#title{
+	text-align: center;
+}
+#description{
+	font-size: 25px;
+	justify-content: center;
+}	
+#survey_form{
+	display: block;
+	text-align: center;
+}
+#patient-info{
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+#submit:hover{
+	color:red;
+	background: rgb(102, 255, 102);
+}
+#submit{
+	margin: 10px;
+	padding: 10px;
+}

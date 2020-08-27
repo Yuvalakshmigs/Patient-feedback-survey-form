@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<title></title>
+		</head>
+		<body>
+
+			<h1 id="title">Patient Feedback Survey form</h1>
+			<div id="survey">
+					<p id="description">This is a survey form where you can tell us about our service </p>
+					<form id="survey-form">
+						<div id="patient-info">
+							<label id="name-label">Patient Name</label></br>
+							<input type="text" name="username" required id="name" placeholder="Enter your name"></br></br>
+							<label id="email-label">Patient Email</label></br>
+							<input type="email" name="email" required id="email" placeholder="Enter your email"> </br></br>
+							<label id="phone-number">Patient Phone number</label></br>
+							<input type="text" name="number" id="phone-number" placeholder="Enter your number" ></br></br>
+							<label id="number-label">Patient Age</label></br>
+							<input type="number" name="number" required id="number" placeholder="Age" min="10" max="99"></br></br>
+
+							<label>Gender</label></br>
+							<select id="dropdown" name="Gender" required>
+								<option disabled selected value>Select your Gender</option>
+								<option value="Male">Male</option>
+								<option value="Female">Female</option>
+								<option value="others">N/A</option>
+								 
+							</select>
+						</div></br>
+							<ul>
+								<div id="patient-info">
+									<li><p>What would you like to see improved? </p></li>
+									<label>
+										<input type="checkbox" name="prefer" value="Hygiene">Hygiene
+									</label></br>	
+									<label>
+										<input type="checkbox" name="prefer" value="Waiting Time">Waiting Time
+									</label></br>
+									<label>
+										<input type="checkbox" name="prefer" value="Doctor Knowlwdge">Doctor Knowlwedge
+									</label></br>
+									<label>
+										<input type="checkbox" name="prefer" value="Doctor Kindness">Doctor Kindness
+									</label></br>
+									<label>
+										<input type="checkbox" name="prefer" value="Nurse patience">Nurse patience
+									</label></br>
+									<label>
+										<input type="checkbox" name="prefer" value="Nurse Knowlwedge">Nurse knowledge
+									</label>
+
+
+								</div>
+
+								<div id="patient-info">
+									<li><p>Would you recommended our service to a friend</p></li>
+									<label>
+										<input type="radio" name="user-recommend" value="Definitely">Definitely
+									</label></br>
+									<label>
+										<input type="radio" name="user-recommend" value="Maybe">Maybe
+									</label></br>
+									<label>
+										<input type="radio" name="user-recommend" value="NotSure">NotSure
+									</label>
+								</div>
+
+								<div id="patient-info">
+									<li><p>Comments on experience of booking appointment:</p></li>
+									<textarea rows="6" cols="60"  placeholder="Enter your comments" id="comments"></textarea>
+								</div>
+								<div id="patient-info">
+									<li><p>How can we improve our services?</p></li>
+									<textarea rows="6" cols="60" placeholder="General comments"></textarea>
+								</div>
+								<div id="patient-info">
+									<li><p>Any comments or suggestions</p></li>
+									<textarea rows="6" cols="60" placeholder="comments or suggestions"></textarea>
+								</div>
+						<div id="patient-info">
+							<button id="submit" type="submit">submit</button>
+						</div>
+
+					</ul>
+					
+					</form>
+			</div>		
+				<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		</body>
+</html>
